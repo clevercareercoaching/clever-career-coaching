@@ -62,7 +62,7 @@ export default function Home() {
             </ul>
 
             <a
-              href="https://wa.me/27637290593"
+              href="https://wa.me/27716808027"
               className="block mt-4 bg-black text-white text-center py-2 rounded"
             >
               Get Started
