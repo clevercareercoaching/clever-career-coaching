@@ -125,7 +125,43 @@ export default function Home() {
           </div>
         ))}
       </section>
+{/* WHY CHOOSE US */}
+<section className="bg-white py-16 px-6 text-center">
 
+  <h2 className="text-3xl font-bold">
+    Why Choose Clever Career Coaching?
+  </h2>
+
+  <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+    Combining AI-powered career intelligence with human strategic positioning to help professionals compete in modern recruitment markets.
+  </p>
+
+  <div className="grid md:grid-cols-3 gap-6 mt-12">
+
+    <div className="bg-gray-100 p-6 rounded-xl shadow">
+      <h3 className="font-bold text-lg">ATS Optimization</h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Professionally optimized CVs designed to improve ATS compatibility and recruiter visibility.
+      </p>
+    </div>
+
+    <div className="bg-gray-100 p-6 rounded-xl shadow">
+      <h3 className="font-bold text-lg">AI + Human Strategy</h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Combining advanced AI analysis with human career positioning expertise for stronger results.
+      </p>
+    </div>
+
+    <div className="bg-gray-100 p-6 rounded-xl shadow">
+      <h3 className="font-bold text-lg">Career Acceleration</h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Helping professionals strengthen employability, interview readiness, and market competitiveness.
+      </p>
+    </div>
+
+  </div>
+
+</section>
     </main>
   );
 }
