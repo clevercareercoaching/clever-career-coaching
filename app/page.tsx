@@ -20,13 +20,21 @@ export default function Home() {
       {/* HERO */}
       <section className="bg-black text-white py-20 text-center px-6">
         <h1 className="text-4xl font-bold">Clever Career Coaching</h1>
-        <p className="mt-4">Get hired faster with professional CV & LinkedIn services</p>
+        <p className="mt-4">Get Hired Faster With Professional Written ATS CV & LinkedIn services</p>
+
+        We rewrite your CV, optimise your LinkedIn profile and position you for interviews in months- not years.
 
         <a
           href="https://wa.me/27716808027"
           className="inline-block mt-6 bg-green-500 px-6 py-3 rounded-xl font-semibold"
         >
-          Free CV Review on WhatsApp
+          
+          ✔ ATS-Compliant CVs
+          ✔ LinkedIn Optimisation
+          ✔ Interview Preparation
+          ✔ Fast Turnaround (24–72h)
+          
+          WhatsApp for Free CV Review
         </a>
       </section>
 
