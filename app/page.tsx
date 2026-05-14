@@ -8,42 +8,41 @@ export default function Home() {
 <section
   className="relative bg-cover bg-center text-white py-32 px-6"
   style={{
-  backgroundImage:
-    "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80')",
-}}
+    backgroundImage:
+      "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80')",
+  }}
 >
 
   <div className="absolute inset-0 bg-black/60"></div>
 
-  <div className="relative z-10 max-w-4xl">
+  <div className="relative z-10 max-w-4xl mx-auto text-center">
 
     <p className="text-yellow-400 uppercase tracking-widest mb-4">
       Your Career. Our Expertise. Your Future.
     </p>
 
     <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-      We Develop Careers. <br />
-      You Build Your Future.
+      Clever Career Coaching
     </h1>
 
-    <p className="mt-6 text-lg text-gray-200 max-w-2xl">
+    <p className="mt-6 text-lg text-gray-200 max-w-2xl mx-auto">
       Professional ATS CV writing, LinkedIn optimisation, career coaching,
-      and employability solutions designed to help you stand out,
-      get noticed, and get hired.
+      and employability solutions designed to help professionals stand out
+      and get hired faster.
     </p>
 
-    <div className="mt-8 flex flex-wrap gap-4 text-sm">
+    <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm">
 
       <div className="bg-white/10 px-4 py-2 rounded-full">
         ✔️ ATS-Compliant CVs
       </div>
 
       <div className="bg-white/10 px-4 py-2 rounded-full">
-        ✔️ HR & Recruiter Focused
+        ✔️ LinkedIn Optimisation
       </div>
 
       <div className="bg-white/10 px-4 py-2 rounded-full">
-        ✔️ Career Growth Driven
+        ✔️ Career Coaching
       </div>
 
       <div className="bg-white/10 px-4 py-2 rounded-full">
@@ -52,23 +51,12 @@ export default function Home() {
 
     </div>
 
-    <div className="mt-10 flex gap-4 flex-wrap">
-
-      <a
-        href="https://wa.me/27716808027"
-        className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-xl font-semibold"
-      >
-        WhatsApp for Free CV Review
-      </a>
-
-      <a
-        href="#services"
-        className="border border-white px-8 py-4 rounded-xl font-semibold"
-      >
-        View Services
-      </a>
-
-    </div>
+    <a
+      href="https://wa.me/27716808027"
+      className="inline-block mt-10 bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-xl font-semibold"
+    >
+      WhatsApp for Free CV Review
+    </a>
 
   </div>
 
