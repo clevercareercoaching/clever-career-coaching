@@ -8,8 +8,9 @@ export default function Home() {
 <section
   className="relative bg-cover bg-center text-white py-32 px-6"
   style={{
-    backgroundImage: "url('/hero-banner.png')",
-  }}
+  backgroundImage:
+    "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80')",
+}}
 >
 
   <div className="absolute inset-0 bg-black/60"></div>
