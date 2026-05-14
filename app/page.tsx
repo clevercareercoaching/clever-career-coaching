@@ -9,10 +9,55 @@ export default function Home() {
   ];
 
   const packages = [
-    { name: "Starter", price: "R100", features: ["CV review", "Basic fixes", "ATS formatting"] },
-    { name: "Professional", price: "R350", features: ["Full CV rewrite", "LinkedIn setup", "Word + PDF"] },
-    { name: "Premium", price: "R750+", features: ["Executive CV", "LinkedIn branding", "Interview coaching"] },
-  ];
+  {
+    name: "ATS Career Scan™",
+    price: "R100",
+    features: [
+      "AI Career Diagnostic",
+      "ATS Compatibility Scoring",
+      "Recruiter Readiness Assessment",
+      "Keyword Optimization Analysis",
+      "LinkedIn Readiness Evaluation",
+      "Career Positioning Insights",
+      "Interview Potential Review",
+      "Strategic Improvement Recommendations",
+    ],
+  },
+
+  {
+    name: "Professional Career Optimization™",
+    price: "R350",
+    features: [
+      "AI + Human CV Transformation",
+      "Full ATS CV Rewrite",
+      "Executive Summary Enhancement",
+      "Achievement-Driven Positioning",
+      "Professional Formatting",
+      "LinkedIn Optimization",
+      "Recruiter-Focused Language",
+      "ATS Compatibility Enhancement",
+      "Career Competitiveness Review",
+      "Word + PDF Delivery",
+    ],
+  },
+
+  {
+    name: "Executive Career Acceleration™",
+    price: "R750+",
+    features: [
+      "Premium Career Transformation",
+      "Executive ATS Analysis",
+      "Executive-Level CV Transformation",
+      "Leadership Positioning",
+      "Executive LinkedIn Branding",
+      "Personal Brand Strategy",
+      "Interview Coaching Preparation",
+      "Executive Communication Guidance",
+      "Salary & Career Positioning Guidance",
+      "Recruiter Competitiveness Analysis",
+    ],
+  },
+];
 
   return (
     <main className="bg-gray-50 text-gray-900">
