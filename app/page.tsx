@@ -165,3 +165,40 @@ export default function Home() {
     </main>
   );
 }
+{/* HOW IT WORKS */}
+<section className="bg-gray-50 py-16 px-6 text-center">
+
+  <h2 className="text-3xl font-bold">
+    How It Works
+  </h2>
+
+  <p className="mt-4 text-gray-600">
+    Simple, professional, and designed to help you move faster toward interviews.
+  </p>
+
+  <div className="grid md:grid-cols-3 gap-8 mt-12">
+
+    <div className="bg-white p-6 rounded-xl shadow">
+      <h3 className="text-xl font-bold">1. Send Your CV</h3>
+      <p className="mt-2 text-sm text-gray-600">
+        WhatsApp your current CV and target role for professional assessment.
+      </p>
+    </div>
+
+    <div className="bg-white p-6 rounded-xl shadow">
+      <h3 className="text-xl font-bold">2. AI + Human Review</h3>
+      <p className="mt-2 text-sm text-gray-600">
+        We analyze ATS compatibility, recruiter appeal, keywords, and career positioning.
+      </p>
+    </div>
+
+    <div className="bg-white p-6 rounded-xl shadow">
+      <h3 className="text-xl font-bold">3. Receive Your Transformation</h3>
+      <p className="mt-2 text-sm text-gray-600">
+        Receive your professionally optimized CV, LinkedIn guidance, and career recommendations.
+      </p>
+    </div>
+
+  </div>
+
+</section>
