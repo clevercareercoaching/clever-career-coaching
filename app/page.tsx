@@ -1,85 +1,8 @@
 "use client";
 
 export default function Home() {
-  const services = [
-    {
-      title: "ATS CV Revamp",
-      description:
-        "Professionally written ATS-friendly CVs designed to improve recruiter visibility and interview opportunities.",
-    },
-
-    {
-      title: "LinkedIn Optimization",
-      description:
-        "Strategic LinkedIn profile enhancement designed to improve recruiter engagement and professional branding.",
-    },
-
-    {
-      title: "Career Coaching",
-      description:
-        "Professional career guidance, interview preparation, and employability improvement strategies.",
-    },
-
-    {
-      title: "Job Applications",
-      description:
-        "Cover letters, job application support, and strategic career positioning assistance.",
-    },
-  ];
-
-  const packages = [
-    {
-      name: "ATS Career Scan™",
-      price: "R100",
-      features: [
-        "AI Career Diagnostic",
-        "ATS Compatibility Scoring",
-        "Recruiter Readiness Assessment",
-        "Keyword Optimization Analysis",
-        "LinkedIn Readiness Evaluation",
-        "Career Positioning Insights",
-        "Interview Potential Review",
-        "Strategic Improvement Recommendations",
-      ],
-    },
-
-    {
-      name: "Professional Career Optimization™",
-      price: "R350",
-      features: [
-        "AI + Human CV Transformation",
-        "Full ATS CV Rewrite",
-        "Executive Summary Enhancement",
-        "Achievement-Driven Positioning",
-        "Professional Formatting",
-        "LinkedIn Optimization",
-        "Recruiter-Focused Language",
-        "ATS Compatibility Enhancement",
-        "Career Competitiveness Review",
-        "Word + PDF Delivery",
-      ],
-    },
-
-    {
-      name: "Executive Career Acceleration™",
-      price: "R750+",
-      features: [
-        "Premium Career Transformation",
-        "Executive ATS Analysis",
-        "Executive-Level CV Transformation",
-        "Leadership Positioning",
-        "Executive LinkedIn Branding",
-        "Personal Brand Strategy",
-        "Interview Coaching Preparation",
-        "Executive Communication Guidance",
-        "Salary & Career Positioning Guidance",
-        "Recruiter Competitiveness Analysis",
-      ],
-    },
-  ];
-
   return (
-    <main className="bg-gray-50 text-gray-900">
+    <main className="bg-gray-50 text-gray-900 min-h-screen">
 
       {/* HERO */}
       <section className="bg-black text-white py-20 text-center px-6">
@@ -114,124 +37,136 @@ export default function Home() {
       </section>
 
       {/* SERVICES */}
-      <section className="grid md:grid-cols-4 gap-6 p-10">
-        {services.map((s, i) => (
-          <div key={i} className="bg-white p-6 rounded-xl shadow">
-            <h2 className="font-bold">{s.title}</h2>
-            <p className="text-sm mt-2">{s.description}</p>
-          </div>
-        ))}
+      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-10">
+
+        <div className="bg-white p-6 rounded-xl shadow">
+          <h2 className="font-bold">ATS CV Revamp</h2>
+          <p className="text-sm mt-2">
+            Professionally written ATS-friendly CVs designed to improve recruiter visibility and interview opportunities.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-xl shadow">
+          <h2 className="font-bold">LinkedIn Optimization</h2>
+          <p className="text-sm mt-2">
+            Strategic LinkedIn profile enhancement designed to improve recruiter engagement and professional branding.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-xl shadow">
+          <h2 className="font-bold">Career Coaching</h2>
+          <p className="text-sm mt-2">
+            Professional career guidance, interview preparation, and employability improvement strategies.
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-xl shadow">
+          <h2 className="font-bold">Job Applications</h2>
+          <p className="text-sm mt-2">
+            Cover letters, job application support, and strategic career positioning assistance.
+          </p>
+        </div>
+
       </section>
 
       {/* PACKAGES */}
       <section className="grid md:grid-cols-3 gap-6 p-10">
-        {packages.map((p, i) => (
-          <div key={i} className="bg-white p-6 rounded-xl shadow">
 
-            <h2 className="text-xl font-bold">{p.name}</h2>
+        <div className="bg-white p-6 rounded-xl shadow">
 
-            <p className="text-2xl my-2">{p.price}</p>
+          <h2 className="text-xl font-bold">
+            ATS Career Scan™
+          </h2>
 
-            <ul className="text-sm space-y-2">
-              {p.features.map((f, j) => (
-                <li key={j}>✓ {f}</li>
-              ))}
-            </ul>
+          <p className="text-2xl my-2">R100</p>
 
-            <a
-              href="https://wa.me/27716808027"
-              className="block mt-6 bg-black text-white text-center py-3 rounded-xl"
-            >
-              Get Started
-            </a>
+          <ul className="text-sm space-y-2">
+            <li>✓ AI Career Diagnostic</li>
+            <li>✓ ATS Compatibility Scoring</li>
+            <li>✓ Recruiter Readiness Assessment</li>
+            <li>✓ Keyword Optimization Analysis</li>
+            <li>✓ LinkedIn Readiness Evaluation</li>
+            <li>✓ Career Positioning Insights</li>
+          </ul>
 
-          </div>
-        ))}
-      </section>
+        </div>
 
-      {/* WHY CHOOSE US */}
-      <section className="bg-white py-16 px-6 text-center">
+        <div className="bg-white p-6 rounded-xl shadow">
 
-        <h2 className="text-3xl font-bold">
-          Why Choose Clever Career Coaching?
-        </h2>
+          <h2 className="text-xl font-bold">
+            Professional Career Optimization™
+          </h2>
 
-        <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-          Combining AI-powered career intelligence with human strategic positioning
-          to help professionals compete in modern recruitment markets.
-        </p>
+          <p className="text-2xl my-2">R350</p>
 
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
+          <ul className="text-sm space-y-2">
+            <li>✓ AI + Human CV Transformation</li>
+            <li>✓ Full ATS CV Rewrite</li>
+            <li>✓ Executive Summary Enhancement</li>
+            <li>✓ Professional Formatting</li>
+            <li>✓ LinkedIn Optimization</li>
+            <li>✓ Word + PDF Delivery</li>
+          </ul>
 
-          <div className="bg-gray-100 p-6 rounded-xl shadow">
-            <h3 className="font-bold text-lg">ATS Optimization</h3>
+        </div>
 
-            <p className="mt-2 text-sm text-gray-600">
-              Professionally optimized CVs designed to improve ATS compatibility
-              and recruiter visibility.
-            </p>
-          </div>
+        <div className="bg-white p-6 rounded-xl shadow">
 
-          <div className="bg-gray-100 p-6 rounded-xl shadow">
-            <h3 className="font-bold text-lg">AI + Human Strategy</h3>
+          <h2 className="text-xl font-bold">
+            Executive Career Acceleration™
+          </h2>
 
-            <p className="mt-2 text-sm text-gray-600">
-              Combining advanced AI analysis with human career positioning
-              expertise for stronger results.
-            </p>
-          </div>
+          <p className="text-2xl my-2">R750+</p>
 
-          <div className="bg-gray-100 p-6 rounded-xl shadow">
-            <h3 className="font-bold text-lg">Career Acceleration</h3>
-
-            <p className="mt-2 text-sm text-gray-600">
-              Helping professionals strengthen employability, interview readiness,
-              and market competitiveness.
-            </p>
-          </div>
+          <ul className="text-sm space-y-2">
+            <li>✓ Executive ATS Analysis</li>
+            <li>✓ Leadership Positioning</li>
+            <li>✓ Executive LinkedIn Branding</li>
+            <li>✓ Interview Coaching Preparation</li>
+            <li>✓ Salary Positioning Guidance</li>
+            <li>✓ Premium Career Transformation</li>
+          </ul>
 
         </div>
 
       </section>
 
       {/* HOW IT WORKS */}
-      <section className="bg-gray-50 py-16 px-6 text-center">
+      <section className="bg-white py-16 px-6 text-center">
 
         <h2 className="text-3xl font-bold">
           How It Works
         </h2>
 
-        <p className="mt-4 text-gray-600">
-          Simple, professional, and designed to help you move faster toward interviews.
-        </p>
-
         <div className="grid md:grid-cols-3 gap-8 mt-12">
 
-          <div className="bg-white p-6 rounded-xl shadow">
-            <h3 className="text-xl font-bold">1. Send Your CV</h3>
+          <div className="bg-gray-100 p-6 rounded-xl shadow">
+            <h3 className="text-xl font-bold">
+              1. Send Your CV
+            </h3>
 
             <p className="mt-2 text-sm text-gray-600">
-              WhatsApp your current CV and target role for professional assessment.
+              WhatsApp your CV and target role for professional assessment.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow">
-            <h3 className="text-xl font-bold">2. AI + Human Review</h3>
+          <div className="bg-gray-100 p-6 rounded-xl shadow">
+            <h3 className="text-xl font-bold">
+              2. AI + Human Review
+            </h3>
 
             <p className="mt-2 text-sm text-gray-600">
-              We analyze ATS compatibility, recruiter appeal, keywords,
-              and career positioning.
+              We analyze ATS compatibility, recruiter appeal, and career positioning.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-xl shadow">
+          <div className="bg-gray-100 p-6 rounded-xl shadow">
             <h3 className="text-xl font-bold">
               3. Receive Your Transformation
             </h3>
 
             <p className="mt-2 text-sm text-gray-600">
-              Receive your professionally optimized CV, LinkedIn guidance,
-              and career recommendations.
+              Receive your professionally optimized CV and career recommendations.
             </p>
           </div>
 
