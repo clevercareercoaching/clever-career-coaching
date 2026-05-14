@@ -5,36 +5,73 @@ export default function Home() {
     <main className="bg-gray-50 text-gray-900 min-h-screen">
 
       {/* HERO */}
-      <section className="bg-black text-white py-20 text-center px-6">
+<section
+  className="relative bg-cover bg-center text-white py-32 px-6"
+  style={{
+    backgroundImage: "url('/hero-banner.png')",
+  }}
+>
 
-        <h1 className="text-4xl md:text-5xl font-bold">
-          Clever Career Coaching
-        </h1>
+  <div className="absolute inset-0 bg-black/60"></div>
 
-        <p className="mt-6 text-xl font-semibold">
-          Get Hired Faster With Professionally Written ATS CV & LinkedIn Services
-        </p>
+  <div className="relative z-10 max-w-4xl">
 
-        <p className="mt-4 max-w-3xl mx-auto text-gray-300">
-          We rewrite your CV, optimise your LinkedIn profile, and strategically
-          position you for interviews and career growth opportunities.
-        </p>
+    <p className="text-yellow-400 uppercase tracking-widest mb-4">
+      Your Career. Our Expertise. Your Future.
+    </p>
 
-        <div className="mt-8 flex flex-col gap-2 text-sm md:text-base">
-          <p>✔ ATS-Compliant CVs</p>
-          <p>✔ LinkedIn Optimisation</p>
-          <p>✔ Interview Preparation</p>
-          <p>✔ Fast Turnaround (24–72 Hours)</p>
-        </div>
+    <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+      We Develop Careers. <br />
+      You Build Your Future.
+    </h1>
 
-        <a
-          href="https://wa.me/27716808027"
-          className="inline-block mt-8 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold"
-        >
-          WhatsApp for Free CV Review
-        </a>
+    <p className="mt-6 text-lg text-gray-200 max-w-2xl">
+      Professional ATS CV writing, LinkedIn optimisation, career coaching,
+      and employability solutions designed to help you stand out,
+      get noticed, and get hired.
+    </p>
 
-      </section>
+    <div className="mt-8 flex flex-wrap gap-4 text-sm">
+
+      <div className="bg-white/10 px-4 py-2 rounded-full">
+        ✔️ ATS-Compliant CVs
+      </div>
+
+      <div className="bg-white/10 px-4 py-2 rounded-full">
+        ✔️ HR & Recruiter Focused
+      </div>
+
+      <div className="bg-white/10 px-4 py-2 rounded-full">
+        ✔️ Career Growth Driven
+      </div>
+
+      <div className="bg-white/10 px-4 py-2 rounded-full">
+        ✔️ Fast Turnaround
+      </div>
+
+    </div>
+
+    <div className="mt-10 flex gap-4 flex-wrap">
+
+      <a
+        href="https://wa.me/27716808027"
+        className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-xl font-semibold"
+      >
+        WhatsApp for Free CV Review
+      </a>
+
+      <a
+        href="#services"
+        className="border border-white px-8 py-4 rounded-xl font-semibold"
+      >
+        View Services
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* SERVICES */}
       <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-10">
