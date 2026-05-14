@@ -162,6 +162,14 @@ export default function Home() {
   </div>
 
 </section>
+  {/* STICKY WHATSAPP BUTTON */}
+<a
+  href="https://wa.me/27716808027"
+  target="_blank"
+  className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-full shadow-lg font-semibold z-50"
+>
+  WhatsApp Us
+</a>
     </main>
   );
 }
