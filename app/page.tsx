@@ -16,20 +16,22 @@ export default function Home() {
           <div className="hidden md:flex gap-6 text-sm items-center">
 
             <a href="#services" className="hover:text-yellow-400">
-              Services
-            </a>
+  Services
+</a>
 
-            <a href="#packages" className="hover:text-yellow-400">
-              Packages
-            </a>
+<a href="#packages" className="hover:text-yellow-400">
+  Packages
+</a>
 
-            <a href="#about" className="hover:text-yellow-400">
-              About
-            </a>
+<a href="#about" className="hover:text-yellow-400">
+  About
+</a>
 
-            <a href="#contact" className="hover:text-yellow-400">
-              Contact
-            </a>
+<a href="#resources" className="hover:text-yellow-400">
+  Resources
+</a>
+
+
 
             <a
               href="https://wa.me/27716808027"
