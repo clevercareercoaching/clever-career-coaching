@@ -3,10 +3,48 @@
 export default function Home() {
   return (
     <main className="bg-gray-50 text-gray-900 min-h-screen">
+{/* NAVBAR */}
+<nav className="fixed top-0 left-0 w-full bg-black text-white z-50 shadow-lg">
 
+  <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+
+    <div className="text-xl font-bold">
+      Clever Career Coaching
+    </div>
+
+    <div className="hidden md:flex gap-6 text-sm items-center">
+
+      <a href="#services" className="hover:text-yellow-400">
+        Services
+      </a>
+
+      <a href="#packages" className="hover:text-yellow-400">
+        Packages
+      </a>
+
+      <a href="#about" className="hover:text-yellow-400">
+        About
+      </a>
+
+      <a href="#contact" className="hover:text-yellow-400">
+        Contact
+      </a>
+
+      <a
+        href="https://wa.me/27716808027"
+        className="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-lg font-semibold"
+      >
+        WhatsApp Us
+      </a>
+
+    </div>
+
+  </div>
+
+</nav>
       {/* HERO */}
-<section
-  className="relative bg-cover bg-center text-white py-32 px-6"
+<section 
+  className="relative bg-cover bg-center text-white py-32 px-6 mt-20"
   style={{
     backgroundImage:
       "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80')",
@@ -63,7 +101,7 @@ export default function Home() {
 </section>
 
       {/* SERVICES */}
-      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-10">
+      <section id="services" classname="grid md:grid-cols-2 lg:grid-cols-4 gap-6 p-10">
 
         <div className="bg-white p-6 rounded-xl shadow">
           <h2 className="font-bold">ATS CV Revamp</h2>
@@ -96,7 +134,7 @@ export default function Home() {
       </section>
 
       {/* PACKAGES */}
-      <section className="grid md:grid-cols-3 gap-6 p-10">
+      <section id = "packagesclass" Name="grid md:grid-cols-3 gap-6 p-10">
 
         <div className="bg-white p-6 rounded-xl shadow">
 
