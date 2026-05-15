@@ -230,6 +230,126 @@ export default function Home() {
 
   </p>
 
+</section>{/* RESOURCES SECTION */}
+<section
+  id="resources"
+  className="bg-gray-100 py-20 px-6"
+>
+
+  <div className="max-w-7xl mx-auto">
+
+    <div className="text-center">
+
+      <h2 className="text-4xl font-bold text-black">
+        Career Resources
+      </h2>
+
+      <p className="mt-6 text-gray-600 max-w-4xl mx-auto text-lg">
+        Professional career guidance, employability strategies, and practical tools designed to help professionals compete effectively in today’s recruitment market.
+      </p>
+
+    </div>
+
+    {/* RESOURCE CARDS */}
+    <div className="grid md:grid-cols-3 gap-8 mt-16">
+
+      {/* CARD 1 */}
+      <div className="bg-white p-8 rounded-2xl shadow-lg">
+
+        <h3 className="text-2xl font-bold text-yellow-600">
+          Career Advice
+        </h3>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Practical career guidance designed to help professionals improve employability, strengthen personal branding, and position themselves strategically for career growth opportunities.
+        </p>
+
+        <ul className="mt-6 space-y-3 text-sm text-gray-700">
+
+          <li>✔ ATS-Friendly CV Strategies</li>
+          <li>✔ LinkedIn Optimization Tips</li>
+          <li>✔ Interview Preparation Guidance</li>
+          <li>✔ Career Confidence Development</li>
+          <li>✔ Executive Positioning Advice</li>
+          <li>✔ Salary Negotiation Guidance</li>
+
+        </ul>
+
+      </div>
+
+      {/* CARD 2 */}
+      <div className="bg-white p-8 rounded-2xl shadow-lg">
+
+        <h3 className="text-2xl font-bold text-yellow-600">
+          Job Search Strategies
+        </h3>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Learn how to apply strategically, improve recruiter visibility, and develop smarter job search systems that increase interview opportunities and long-term career success.
+        </p>
+
+        <ul className="mt-6 space-y-3 text-sm text-gray-700">
+
+          <li>✔ Strategic Job Applications</li>
+          <li>✔ Recruiter Visibility Techniques</li>
+          <li>✔ LinkedIn Networking Strategies</li>
+          <li>✔ ATS Keyword Optimization</li>
+          <li>✔ Professional Follow-Up Methods</li>
+          <li>✔ Interview Opportunity Positioning</li>
+
+        </ul>
+
+      </div>
+
+      {/* CARD 3 */}
+      <div className="bg-white p-8 rounded-2xl shadow-lg">
+
+        <h3 className="text-2xl font-bold text-yellow-600">
+          Get A Job In 30 Days Challenge
+        </h3>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          A structured career acceleration challenge focused on consistency, confidence, visibility, networking, interview preparation, and intentional career action.
+        </p>
+
+        <ul className="mt-6 space-y-3 text-sm text-gray-700">
+
+          <li>✔ Daily Job Search Accountability</li>
+          <li>✔ CV & LinkedIn Optimization</li>
+          <li>✔ Recruiter Engagement Strategies</li>
+          <li>✔ Confidence Building Techniques</li>
+          <li>✔ Interview Readiness Preparation</li>
+          <li>✔ Career Momentum Development</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    {/* RESOURCE CTA */}
+    <div className="bg-black text-white rounded-3xl p-10 mt-20 text-center">
+
+      <h3 className="text-3xl font-bold text-yellow-400">
+        Empowering People Beyond CV Writing
+      </h3>
+
+      <p className="mt-6 text-gray-300 max-w-4xl mx-auto leading-8">
+        Clever Career Coaching combines AI-powered career intelligence, recruiter-focused strategies, and people development principles to help professionals build stronger careers, increase employability, and unlock greater opportunities.
+      </p>
+
+      <a
+        href="https://wa.me/27716808027"
+        target="_blank"
+        className="inline-block mt-8 bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-4 rounded-xl font-semibold"
+      >
+        Start Your Career Transformation
+      </a>
+
+    </div>
+
+  </div>
+
 </section>
       {/* HOW IT WORKS */}
       <section className="bg-white py-16 px-6 text-center">
