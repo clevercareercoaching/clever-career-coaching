@@ -208,23 +208,27 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section
-        id="about"
-        className="bg-black text-white py-20 px-6 text-center"
-      >
+<section
+  id="about"
+  className="bg-black text-white py-20 px-6 text-center"
+>
 
-        <h2 className="text-4xl font-bold">
-          About Clever Career Coaching
-        </h2>
+  <h2 className="text-4xl font-bold text-yellow-400">
+    About Clever Nyazenga
+  </h2>
 
-        <p className="mt-6 max-w-3xl mx-auto text-gray-300 text-lg">
-          Clever Career Coaching combines AI-powered career intelligence
-          with strategic human expertise to help professionals strengthen
-          employability, improve recruiter visibility, and accelerate career growth.
-        </p>
+  <p className="mt-8 max-w-4xl mx-auto text-lg text-gray-300 leading-8">
 
-      </section>
+    Clever Nyazenga is a Career Coach, People Developer, and Employability Strategist passionate about empowering professionals to unlock their potential, strengthen their careers, and create meaningful impact.
 
+    Combining corporate leadership experience, people development, and AI-powered career optimization, he helps individuals position themselves competitively in modern recruitment markets through ATS-optimized CVs, LinkedIn branding, interview preparation, and career transformation strategies.
+
+    His mission is simple:
+    To develop people, build stronger careers, and contribute toward a better future through growth, confidence, and opportunity.
+
+  </p>
+
+</section>
       {/* HOW IT WORKS */}
       <section className="bg-white py-16 px-6 text-center">
 
