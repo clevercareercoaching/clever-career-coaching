@@ -217,19 +217,18 @@ export default function Home() {
 
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-    {/* IMAGE */}
+    {/* PROFILE IMAGE */}
     <div className="flex justify-center">
 
-  
-        <img
-  src="/images/profile.jpg"
-  alt="Clever Nyazenga"
-  className="rounded-3xl shadow-2xl w-full max-w-md"
-/>
+      <img
+        src="/images/profile.jpg"
+        alt="Clever Nyazenga"
+        className="rounded-3xl shadow-2xl w-full max-w-md"
+      />
 
     </div>
 
-    {/* TEXT */}
+    {/* ABOUT TEXT */}
     <div>
 
       <h2 className="text-4xl font-bold text-yellow-400">
@@ -257,90 +256,28 @@ export default function Home() {
 
       <p className="mt-6 text-gray-300 leading-8">
 
-        Combining leadership experience, strategic business understanding,
-        and AI-powered career intelligence, he helps professionals
-        position themselves competitively in modern recruitment markets
-        through ATS-optimized CVs, LinkedIn branding,
-        interview preparation, and career transformation strategies.
-
-      </p>
-
-      <p className="mt-6 text-gray-300 leading-8">
-
         Clever holds a Bachelor of Business Administration Degree
         in Marketing Management from the Institute of Marketing Management (IMM),
         including academic distinction recognition in Human Resources,
         as well as a Bachelor of Philosophy Honours Degree
-        in Marketing Management (IMM).
+        in Marketing Management.
 
       </p>
 
       <p className="mt-6 text-gray-300 leading-8">
 
-        His mission is to empower professionals, graduates,
-        executives, and job seekers to build stronger careers,
-        unlock opportunities, and create meaningful impact through
-        confidence, positioning, growth, and people development.
+        Combining AI-powered career intelligence with strategic human insight,
+        he helps professionals strengthen recruiter visibility,
+        improve ATS compatibility, and position themselves competitively
+        in modern recruitment markets.
 
       </p>
-
-      {/* HIGHLIGHTS */}
-      <div className="mt-10 grid md:grid-cols-2 gap-4">
-
-        <div className="bg-white/10 p-5 rounded-xl">
-
-          <h3 className="font-bold text-yellow-400">
-            Corporate Leadership
-          </h3>
-
-          <p className="text-sm text-gray-300 mt-2">
-            Coca-Cola Beverages South Africa leadership and commercial experience.
-          </p>
-
-        </div>
-
-        <div className="bg-white/10 p-5 rounded-xl">
-
-          <h3 className="font-bold text-yellow-400">
-            Human Resources Distinction
-          </h3>
-
-          <p className="text-sm text-gray-300 mt-2">
-            Academic distinction in Human Resources and people development.
-          </p>
-
-        </div>
-
-        <div className="bg-white/10 p-5 rounded-xl">
-
-          <h3 className="font-bold text-yellow-400">
-            Career Transformation
-          </h3>
-
-          <p className="text-sm text-gray-300 mt-2">
-            ATS optimization, LinkedIn branding, interview preparation, and employability coaching.
-          </p>
-
-        </div>
-
-        <div className="bg-white/10 p-5 rounded-xl">
-
-          <h3 className="font-bold text-yellow-400">
-            AI + Human Strategy
-          </h3>
-
-          <p className="text-sm text-gray-300 mt-2">
-            Combining AI-powered career intelligence with strategic human insight.
-          </p>
-
-        </div>
-
-      </div>
 
     </div>
 
   </div>
 
+</section>
 </section>
       {/* RESOURCES SECTION */}
 <section
