@@ -51,7 +51,7 @@ export default function Home() {
         className="relative bg-cover bg-center text-white py-32 px-6 mt-20"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80')",
+            "url('/images/hero.jpg')",
         }}
       >
 
@@ -220,11 +220,12 @@ export default function Home() {
     {/* IMAGE */}
     <div className="flex justify-center">
 
-      <img
-        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
-        alt="Clever Nyazenga"
-        className="rounded-3xl shadow-2xl w-full max-w-md"
-      />
+  
+        <img
+  src="/images/profile.jpg"
+  alt="Clever Nyazenga"
+  className="rounded-3xl shadow-2xl w-full max-w-md"
+/>
 
     </div>
 
